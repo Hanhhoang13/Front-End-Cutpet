@@ -356,12 +356,12 @@ tr:nth-child(odd) {background-color: #ffc135;}
     width: 800px;
     z-index: 10003;
     opacity: 1;
-    ;
     padding: 28px;
-    position: relative;
+    position: absolute;
+    top: 250px;
     /* top: 10px;
     left: 50px; */
-    height: 100%;
+    /* height: 100%; */
     border-radius: 8px;
     transform: translateX(50%)
     ;
@@ -370,4 +370,16 @@ tr:nth-child(odd) {background-color: #ffc135;}
 .header a {
     text-decoration: none;
     color: black;
+}
+.add-header {
+    display: flex;
+    justify-content: space-between;
+}
+.add-header img {
+    width: 20px;
+}
+
+.add-list {
+    display: flex;
+    width: 220px;;
 }
