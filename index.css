@@ -19,6 +19,7 @@ body {
 }
 
 #form__login {
+    position: relative;
     background: #facb61;
     padding: 15px 50px;
     border: 2.5px solid;
@@ -117,6 +118,30 @@ body {
     background: #fff0cd;
 }
 
+/* Lỗi */
+
+.loi{
+    background: #d9d9d9;
+    position: absolute;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 330px;
+    padding: 5px 10px;
+}
+.loi h5{
+    color: #ff1616;
+    margin: 0;
+}
+.loi p{
+    font-size: 12px;
+    margin:5px 0 0 0;
+}
+.loi div a{
+    font-size: 13px;
+    display: flex;
+    justify-content: right;
+    margin-right:10px;
+}
 
 /* Giao Dien Chinh */
 .gd__webname {
